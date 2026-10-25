@@ -1,0 +1,40 @@
+// Project details shown in the pop-up. `github` and `preview` (live link) are optional:
+// the matching button only appears when the value is filled in.
+export const projects = [
+  {
+    slug: "tradezy",
+    title: "Tradezy",
+    category: "Full Stack Development",
+    thumb: "/images/tradezy-login.jpg",
+    photos: ["/images/tradezy-login.jpg"],
+    client: "",
+    duration: "",
+    preview: "https://stock-market-snowy.vercel.app",
+    github: "https://github.com/mihithaviha/stock-market",
+    html: "<h1>Tradezy</h1><h3>About the Project</h3><p>Tradezy is a <strong>full-stack stock market and portfolio tracking platform</strong> that gives everyday investors one clear place to follow the market and manage their holdings. Prices update <strong>live without refreshing the page</strong>, and the app turns raw market data into simple dashboards, alerts and learning material, so beginners can understand what is happening to their money.</p><h3>Key Features</h3><ul><li><p><strong>Live prices</strong>: stock quotes are pulled from Yahoo Finance and streamed to the dashboard every few seconds over WebSockets, with Redis caching to keep it fast.</p></li><li><p><strong>Portfolio tracking</strong>: add holdings with quantity and buy price and see current value, profit and loss, and a full transaction history.</p></li><li><p><strong>Market trends</strong>: top gainers, top losers and most active stocks, plus a searchable financial analyser for any company.</p></li><li><p><strong>News and alerts</strong>: market news related to the stocks you own, and daily portfolio reports, news alerts and stock suggestions sent by email at a time you choose.</p></li><li><p><strong>AI assistant</strong>: a chatbot that answers questions about your portfolio, market basics and how to use the app.</p></li><li><p><strong>Academy</strong>: a concept of the day and learning material that explain ideas like P/E ratio, dividends and ETFs in plain language.</p></li><li><p><strong>Accounts and plans</strong>: email and Google sign-in, an admin dashboard, and premium plans with Razorpay and Stripe payments.</p></li><li><p><strong>Polished experience</strong>: responsive layout, light and dark themes, charts and smooth animations.</p></li></ul><h3>Tech Stack</h3><p><strong>React, Vite, Tailwind CSS, Framer Motion and Recharts</strong> on the front end, with <strong>Node.js, Express, Socket.IO, MongoDB, Redis and Supabase</strong> on the back end. Authentication uses <strong>JWT and Google OAuth</strong>, scheduled reports run with <strong>node-cron and Nodemailer</strong>, and the front end is deployed on <strong>Vercel</strong>.</p>",
+  },
+  {
+    slug: "recoveriq",
+    title: "RecoverIQ",
+    category: "Full Stack Development",
+    thumb: "/images/recoveriq-home.jpg",
+    photos: ["/images/recoveriq-home.jpg"],
+    client: "",
+    duration: "",
+    preview: "https://recover-iq-alpha.vercel.app/dashboard",
+    github: "https://github.com/mihithaviha/RecoverIQ",
+    html: "<h1>RecoverIQ</h1><h3>About the Project</h3><p>RecoverIQ is an <strong>AI revenue recovery platform</strong> built for the <strong>Razorpay Buildathon (Track 3: AI Revenue Recovery)</strong>. It helps finance teams recover <strong>failed, overdue and at-risk payments</strong> before they turn into write-offs. Every invoice is scored on <strong>transparent, explainable factors</strong>, the app recommends the safest next recovery action, and only what a person has approved is automated, with every decision saved to an <strong>audit timeline</strong>.</p><h3>Key Features</h3><ul><li><p><strong>Explainable AI scoring</strong>: payment history, overdue days, engagement, sentiment and invoice size give each invoice a recovery probability, a low, medium or high risk level and a plain-language reason.</p></li><li><p><strong>Recovery Autopilot with guardrails</strong>: suggested channel and best time to contact, expected amount recovered, and approval rules, contact-frequency caps and sentiment-based pauses that keep automation safe.</p></li><li><p><strong>Recovery economics</strong>: every recommendation weighs the expected recovery against the cost of chasing it, and suggests a write-off review when it is not worth pursuing.</p></li><li><p><strong>Strategy simulator</strong>: compare conservative, balanced and aggressive policies on the live portfolio before changing anything.</p></li><li><p><strong>Fatigue and memory</strong>: tracks how often a customer was contacted and remembers which channel worked for them before.</p></li><li><p><strong>Full lifecycles</strong>: every action moves from recommended to approved to completed, and campaigns run from draft to completed, with each step logged.</p></li><li><p><strong>Guided demo mode</strong>: a step-by-step walkthrough of the whole story, with one-click reset.</p></li><li><p><strong>Mobile-first</strong>: a slide-out menu, card layouts instead of tables, and an AI copilot that opens as a bottom sheet, tested down to 320px with no sideways scrolling.</p></li></ul><h3>Tech Stack</h3><p><strong>Next.js (App Router), TypeScript, Tailwind CSS and Recharts</strong> on the front end, with <strong>FastAPI and Pydantic</strong> on the back end. Sign-in uses <strong>Auth.js with Google OAuth</strong>, and a payment-provider layer supports <strong>Razorpay</strong>. It runs on seeded demo data with simulated integrations, and the front end is deployed on <strong>Vercel</strong>.</p>",
+  },
+  {
+    slug: "campusbite",
+    title: "CampusBite",
+    category: "Full Stack Development",
+    thumb: "/images/campusbite-home.jpg",
+    photos: ["/images/campusbite-home.jpg"],
+    client: "",
+    duration: "",
+    preview: "",
+    github: "https://github.com/mihithaviha/campus-Cafeteria-OS-",
+    html: "<h1>CampusBite</h1><h3>About the Project</h3><p>CampusBite is a <strong>campus food ordering platform</strong> that connects students with the cafeterias and food stalls around their college. Students can find their campus, browse live menus, <strong>order in seconds</strong> and follow the order until it is ready, while vendors get one place to run their menu and orders. It also adds a fun layer for students, with <strong>polls and a mini game that earn wallet credits</strong> towards free food.</p><h3>Key Features</h3><ul><li><p><strong>Find your campus</strong>: search by city, college or campus and see the food stalls available there.</p></li><li><p><strong>Explore and order</strong>: a menu with food photos, a cart, and a checkout that shows the order summary, wallet balance and the amount left to pay.</p></li><li><p><strong>Live order tracking</strong>: every order moves from pending to preparing to ready, and students can follow its live status and see their order history.</p></li><li><p><strong>Vendor dashboard</strong>: vendors register a cafeteria, add menu items and manage the live daily menu.</p></li><li><p><strong>Kitchen dashboard</strong>: incoming orders are split into pending and preparing so the kitchen can work through them in order.</p></li><li><p><strong>Admin view</strong>: daily revenue and total orders at a glance.</p></li><li><p><strong>Play and earn</strong>: students answer weekly polls and play a slot game to earn and spend campus wallet credits.</p></li><li><p><strong>Accounts</strong>: sign-up and sign-in with separate experiences for students, vendors and admins.</p></li></ul><h3>Tech Stack</h3><p><strong>React, Vite, Tailwind CSS, Motion and Lucide icons</strong> on the front end, with <strong>Supabase</strong> (authentication and a PostgreSQL database with migrations) behind it, and deployment configured for <strong>Vercel</strong>.</p>",
+  },
+]
